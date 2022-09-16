@@ -1,4 +1,7 @@
 /* Base */
+img.rounded-corners {
+  border-radius: 30px;
+}
 .DIV_CORE_TEAM_HEADER {
   height: 100px;
   width: 100%;
