@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+
+<body>
+  <div class="banner">
+    <div class="banner-text">Banner Text</div>
+  </div>
+  <div class="content">
+    <h2>Main Content</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quod assumenda vero reprehenderit, quam unde
+      libero quas possimus. Sit in expedita veritatis illum blanditiis, culpa aliquid error veniam omnis facilis?</p>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+  </script>
+  <script>
+    $(window).scroll(function () {
+      $(".banner-text").css("opacity", 1 - $(window).scrollTop())
+    });
+  </script>
+</body>
+
+</html>
